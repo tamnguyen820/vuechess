@@ -16,7 +16,7 @@ export const engine = {
 
   mutations: {
     createEngine(state, fen) {
-      state.worker = new Worker(process.env.BASE_URL + "engine/stockfish11.js");
+      state.worker = new Worker("/engine/stockfish11.js");
       this.commit("engine/createPvArray")
 
       state.worker.onmessage = function (e) {

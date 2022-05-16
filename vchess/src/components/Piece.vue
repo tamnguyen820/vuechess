@@ -15,7 +15,7 @@ export default {
     return {
       srcURL: "assets/images/piece/",
       dragging: false,
-      publicPath: process.env.BASE_URL,
+      publicPath: "/",
     };
   },
   props: {

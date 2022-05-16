@@ -213,7 +213,7 @@ export default {
       arrows: [],
       arrowFrom: "",
       arrowFromKeyboard: "",
-      publicPath: process.env.BASE_URL,
+      publicPath: "/",
     };
   },
   computed: {
