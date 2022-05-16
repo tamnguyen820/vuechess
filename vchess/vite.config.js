@@ -13,7 +13,7 @@ export default defineConfig({
   },
   define: {
     'process.env': {
-      BASE_URL: "http://localhost:3000/"
+      BASE_URL: "https://vchess1.netlify.app/"
     }
   }
 })
